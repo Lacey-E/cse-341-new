@@ -1,13 +1,10 @@
-
-const routes = require('express').Router();
-
-const myController = require('../controllers');
-
-
-routes.get('/', myController.awesomeFunction);
-
-routes.get('/even', myController.nameAwesomeFunction);
+const express = require('express')
+const Router = express.Router()
 
 
 
-module.exports = routes;
+
+Router.use('/contacts', require('./contacts'))
+
+
+module.exports = Router;

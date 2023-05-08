@@ -4,7 +4,7 @@ GET http://localhost:3000 HTTP/1.1
 GET http://localhost:3000/contacts HTTP/1.1
 
 ###
-GET http://localhost:3000/contacts/645576bb6914ce1fb3c870ee HTTP/1.1
+GET http://localhost:3000/contacts/645952a55dccee49453175e1 HTTP/1.1
 
 
 ###
@@ -15,3 +15,24 @@ GET https://esther-node-js-class1.onrender.com/contacts HTTP/1.1
 
 ###
 GET https://esther-node-js-class1.onrender.com/contacts/645576bb6914ce1fb3c870ee HTTP/1.1
+
+###
+GET https://esther-node-js-class1.onrender.com/contacts/645576bb6914ce1fb3c870ee HTTP/1.1
+
+### Create contact
+POST http://localhost:3000/contacts HTTP/1.1
+content-type: application/json
+
+{
+    "firstName":"Ashley",
+    "lastName":"Weaver",
+    "email":"aWeaver@test.com",
+    "favoriteColor":"Brown",
+    "birthday":"06/19/2000"
+}
+
+
+### DELETE contact
+DELETE http://localhost:3000/contacts/645952a55dccee49453175e1 HTTP/1.1
+
+

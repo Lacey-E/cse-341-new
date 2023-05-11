@@ -34,13 +34,13 @@ content-type: application/json
 
 ###
 
-PUT  http://localhost:3000/contacts/645952a55dccee49453175e1 HTTP/1.1
+PUT  http://localhost:3000/contacts/6459613964d0e497d61010fa HTTP/1.1
 content-type: application/json
 
 {
-    "firstName":"Ashley",
-    "lastName":"Mender",
-    "email":"aWeavxder@test.com",
+    "firstName":"Ashley Ray",
+    "lastName":"Menderouz",
+    "email":"aRay@test.com",
     "favoriteColor":"Brdfswown",
     "birthday":"06/19/200ds0"
 }
@@ -51,7 +51,7 @@ DELETE http://localhost:3000/contacts/645952a55dccee49453175e1 HTTP/1.1
 
 ###
 
-GET https://esther-node-js-class1.onrender.com/contacts HTTP/1.1
+GET https://esther-node-js-class1.onrender.com/contacts/6459613964d0e497d61010fa HTTP/1.1
 
 
 ###
@@ -59,4 +59,4 @@ GET https://esther-node-js-class1.onrender.com/contacts/645952a55dccee49453175e1
 
 
 ###
-DELETE https://esther-node-js-class1.onrender.com/contacts/645952a55dccee49453175e1 HTTP/1.1
+DELETE https://esther-node-js-class1.onrender.com/contacts/6459613964d0e497d61010fa HTTP/1.1
